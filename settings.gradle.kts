@@ -7,9 +7,9 @@ include(
     "items-ui",
     "items-service"
 )
-plugins {
-    id("com.gradle.enterprise").version("3.1.1")
-}
+
+plugins { id("com.gradle.enterprise").version("3.1.1") }
+
 gradleEnterprise {
     buildScan {
         link("VCS", "https://github.com/steklopod/microservices.git")
