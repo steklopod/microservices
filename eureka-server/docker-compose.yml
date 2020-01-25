@@ -1,0 +1,11 @@
+version: '3.6'
+
+services:
+  eureka-serviceregistry:
+    container_name: serviceregistry
+    build: ./
+    ports:
+      - 8761:8761
+    hostname: serviceregistry
+    environment:
+      - EUREKA_CLIENT_SERVICEURL_DEFAULTZONE=http://serviceregistry:8761/eureka
