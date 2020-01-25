@@ -1,4 +1,4 @@
-# Microservices example ![Java CI](https://github.com/steklopod/microservices/workflows/Java%20CI/badge.svg)
+# Microservices example ![Java CI](https://github.com/steklopod/microservices/workflows/TEST/badge.svg)
 
 There are articles with more detailed explanation about this project: in 
 [Russian](https://habr.com/post/431474/).

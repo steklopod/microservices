@@ -1,4 +1,4 @@
-name: Java CI
+name: TEST
 
 on: [push, pull_request]
 
@@ -20,3 +20,29 @@ jobs:
 
       - name: Jacoco coverage verification
         run: ./gradlew jacocoTestCoverageVerification
+
+      - name: Artifact [config-server]
+        uses: actions/upload-artifact@v1
+        with:
+          name: config-server.jar
+          path: config-server/build/libs
+      - name: Artifact [ui-gateway]
+        uses: actions/upload-artifact@v1
+        with:
+          name: ui-gateway.jar
+          path: ui-gateway/build/libs
+      - name: Artifact [eureka-server]
+        uses: actions/upload-artifact@v1
+        with:
+          name: eureka-server.jar
+          path: eureka-server/build/libs
+      - name: Artifact [items-ui]
+        uses: actions/upload-artifact@v1
+        with:
+          name: items-ui.jar
+          path: items-ui/build/libs
+      - name: Artifact [items-service]
+        uses: actions/upload-artifact@v1
+        with:
+          name: items-service.jar
+          path: items-service/build/libs
