@@ -1,4 +1,6 @@
 # Microservices example ![Java CI](https://github.com/steklopod/microservices/workflows/TEST/badge.svg)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=steklopod_microservices&metric=alert_status)](https://sonarcloud.io/dashboard?id=steklopod_microservices)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=steklopod_microservices&metric=coverage)](https://sonarcloud.io/dashboard?id=steklopod_microservices)
 
 There are articles with more detailed explanation about this project: in 
 [Russian](https://habr.com/post/431474/).
