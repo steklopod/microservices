@@ -2,8 +2,7 @@ description = "ROOT"
 
 plugins {
     val kotlin = "1.3.61"
-    val springBoot = "2.2.4.RELEASE"
-    val management = "1.0.9.RELEASE"
+    val (springBoot, management) = "2.2.4.RELEASE" to "1.0.9.RELEASE"
     kotlin("jvm") version kotlin apply false
     kotlin("plugin.spring") version kotlin apply false
     id("org.springframework.boot") version springBoot apply false

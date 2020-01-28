@@ -4,7 +4,7 @@ There are articles with more detailed explanation about this project: in
 [Russian](https://habr.com/post/431474/).
 
 This is an example of microservice architecture pattern implemented with following stack of Java-technologies:
-* JDK 13
+* JDK 11
 * Kotlin
 * Spring Cloud
   * Spring Cloud Gateway

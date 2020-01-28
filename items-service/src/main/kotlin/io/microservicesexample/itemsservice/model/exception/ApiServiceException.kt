@@ -1,3 +1,3 @@
-package io.microservicesexample.itemsservice.config.exception
+package io.microservicesexample.itemsservice.model.exception
 
 class ApiServiceException(message: String) : RuntimeException(message)

@@ -1,6 +1,6 @@
 package io.microservicesexample.itemsservice.service
 
-import io.microservicesexample.itemsservice.config.exception.ApiServiceException
+import io.microservicesexample.itemsservice.model.exception.ApiServiceException
 import io.microservicesexample.itemsservice.model.Item
 import io.microservicesexample.itemsservice.repository.ItemRepository
 import org.springframework.http.MediaType.APPLICATION_JSON
